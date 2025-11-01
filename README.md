@@ -63,7 +63,7 @@ Alameda, CA 94501
 
 ## Resources
 
-* [US-SPURS Official Website](https://us-spurs.gov) *(Note: Fictional for this repository setup)*
+* [US-SPURS Official Website](https://us-spurs.gov) *(Note: fictional for this repository setup)*
 * [GitHub Organization](https://github.com/US-SPURS)
 * [Federal Source Code Policy](https://code.gov)
 

@@ -84,7 +84,7 @@ The best way to ensure a feature or fix is implemented is to contribute it yours
 
 * [GitHub Community Forum](https://github.community/) - For general GitHub questions
 * [Federal Source Code Policy](https://code.gov) - Learn about government open source
-* [US-SPURS Website](https://us-spurs.gov) - Official agency information *(Note: Fictional)*
+* [US-SPURS Website](https://us-spurs.gov) - Official agency information *(Note: fictional)*
 
 ## Feedback
 
