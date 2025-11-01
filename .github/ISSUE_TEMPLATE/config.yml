@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: US-SPURS Open Source Program Office
+    url: mailto:opensource@us-spurs.gov
+    about: Contact the Open Source Program Office for general inquiries
+  - name: Security Vulnerability
+    url: mailto:security@us-spurs.gov
+    about: Report security vulnerabilities privately (do not use public issues)

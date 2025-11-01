@@ -1,0 +1,65 @@
+name: Repository Linter
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run weekly on Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+
+jobs:
+  lint:
+    name: Lint Repository
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check for required files
+        run: |
+          echo "Checking for required files..."
+          files=(
+            "README.md"
+            "LICENSE"
+            "CODE_OF_CONDUCT.md"
+            "CONTRIBUTING.md"
+            "SECURITY.md"
+          )
+          
+          missing_files=()
+          for file in "${files[@]}"; do
+            if [ ! -f "$file" ]; then
+              missing_files+=("$file")
+              echo "❌ Missing: $file"
+            else
+              echo "✅ Found: $file"
+            fi
+          done
+          
+          if [ ${#missing_files[@]} -ne 0 ]; then
+            echo "Error: Missing required files"
+            exit 1
+          fi
+          
+          echo "All required files present!"
+      
+      - name: Validate code.json
+        if: hashFiles('code.json') != ''
+        run: |
+          echo "Validating code.json..."
+          if command -v jq &> /dev/null; then
+            jq empty code.json && echo "✅ code.json is valid JSON" || (echo "❌ code.json is invalid JSON" && exit 1)
+          else
+            echo "⚠️  jq not installed, skipping JSON validation"
+          fi
+      
+      - name: Check for CODEOWNERS
+        run: |
+          if [ -f "CODEOWNERS" ] || [ -f ".github/CODEOWNERS" ]; then
+            echo "✅ CODEOWNERS file found"
+          else
+            echo "⚠️  CODEOWNERS file not found (recommended)"
+          fi
