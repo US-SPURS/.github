@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "measurementType": {
+    "method": "projects"
+  },
+  "agency": "SPURS",
+  "releases": [
+    {
+      "name": "US-SPURS .github Repository",
+      "organization": "US-SPURS",
+      "description": "Default community health files for the US-SPURS GitHub organization. This repository provides standard templates and guidelines for all US-SPURS open source projects.",
+      "tags": [
+        "government",
+        "federal",
+        "open-source",
+        "community-health",
+        "templates"
+      ],
+      "contact": {
+        "email": "opensource@us-spurs.gov",
+        "name": "US-SPURS Open Source Program Office"
+      },
+      "status": "Production",
+      "vcs": "git",
+      "repositoryURL": "https://github.com/US-SPURS/.github",
+      "homepageURL": "https://github.com/US-SPURS",
+      "downloadURL": "https://github.com/US-SPURS/.github/archive/refs/heads/main.zip",
+      "disclaimerURL": "https://github.com/US-SPURS/.github#legal",
+      "disclaimerText": "This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the CC0 1.0 Universal public domain dedication.",
+      "languages": [
+        "Markdown"
+      ],
+      "laborHours": 40,
+      "relatedCode": [
+        {
+          "name": "18F .github",
+          "URL": "https://github.com/18F/.github",
+          "isGovernmentRepo": true
+        },
+        {
+          "name": "DSACMS .github",
+          "URL": "https://github.com/DSACMS/.github",
+          "isGovernmentRepo": true
+        }
+      ],
+      "reusedCode": [],
+      "date": {
+        "created": "2025-11-01",
+        "lastModified": "2025-11-01",
+        "metadataLastUpdated": "2025-11-01"
+      },
+      "version": "1.0.0",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "CC0-1.0",
+            "URL": "https://github.com/US-SPURS/.github/blob/main/LICENSE"
+          }
+        ],
+        "usageType": "openSource"
+      }
+    }
+  ]
+}

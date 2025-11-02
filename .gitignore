@@ -1,0 +1,47 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Build Artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
+.npm/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Test Coverage
+coverage/
+.nyc_output/
+*.coveragerc
+htmlcov/
+
+# Documentation Build
+docs/_build/
+site/
