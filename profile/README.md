@@ -43,21 +43,21 @@ Want to contribute to US-SPURS projects? Here's how:
 Security is paramount. If you discover a vulnerability:
 
 - **DO NOT** open a public issue
-- **DO** email security@us-spurs.gov
+- **DO** email security@spurs.gov
 - See our [Security Policy](https://github.com/US-SPURS/.github/blob/main/SECURITY.md) for details
 
 ### 📞 Contact Us
 
-- 📧 General: info@us-spurs.gov
-- 🔓 Open Source: opensource@us-spurs.gov
-- 🔒 Security: security@us-spurs.gov
-- 📰 Press: press@us-spurs.gov
+- 📧 General: info@spurs.gov
+- 🔓 Open Source: opensource@spurs.gov
+- 🔒 Security: security@spurs.gov
+- 📰 Press: press@spurs.gov
 
 ### 📍 Location
 
 **Joint Force Base Freedom Island**  
-Building 1, Alameda Point  
-Alameda, CA 94501
+1000 Patriot Way 
+Joint Force Base Freedom Island, CA 94500
 
 ### ⚖️ Legal
 
