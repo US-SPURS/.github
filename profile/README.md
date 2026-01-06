@@ -1,4 +1,4 @@
-# Welcome to US-SPURS on GitHub 🇺🇸
+# Welcome to US-SPURS on GitHub
 
 ## United States Department of Special Projects and Unified Response Services
 
