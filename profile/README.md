@@ -6,7 +6,7 @@ The United States Department of Special Projects and Unified Response Services (
 
 ### 🏢 About Us
 
-Located at **Joint Force Base Freedom Island** (formerly Alameda Naval Air Station) in Alameda, California, US-SPURS coordinates specialized projects and provides unified response capabilities across federal agencies.
+Located at **Joint Force Base Freedom Island (JFB-FI)**, formerly Alameda Naval Air Station (NAS), in Alameda, California, US-SPURS coordinates specialized projects and provides unified response capabilities across federal agencies.
 
 ### 🎯 Our Mission
 
@@ -56,7 +56,7 @@ Security is paramount. If you discover a vulnerability:
 ### 📍 Location
 
 **Joint Force Base Freedom Island**  
-1000 Patriot Way 
+1000 Patriot Way<br>
 Joint Force Base Freedom Island, CA 94500
 
 ### ⚖️ Legal
