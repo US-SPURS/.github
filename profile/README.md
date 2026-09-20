@@ -1,7 +1,6 @@
 <div align="center">
 
-# 🇺🇸 United States Department of Special Projects
-## and Unified Response Services
+# United States Department of Special Projects and Unified Response Services
 
 ### **US-SPURS · Public Engineering · Unified Response · Open Innovation**
 
